@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'consuming-jwt-api';
+  youClicked(Name: HTMLInputElement): void {
+    const name: string = Name.value;
+    alert(name);
+  }
 }
